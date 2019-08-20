@@ -1,6 +1,6 @@
 # BJSS Tutorial
 
-### Task 1 [x]
+### Task 1 :heavy_check_mark:
 
 Go to http://dummy.restapiexample.com/
 
@@ -11,7 +11,7 @@ Take a look at the examples. You can execute a GET request in your browser by pa
 For an overview of JSON, read [here](https://www.w3schools.com/js/js_json_intro.asp)
 
 
-### Task 2 [x]
+### Task 2 :heavy_check_mark:
 
 Postman is a GUI for interacting with APIs. Download Postman [here](https://www.getpostman.com/)
 
@@ -23,7 +23,7 @@ Using the dummy.restapiexample.com site, create a new collection in postman with
 4. Delete the user
 5. Check the user is no longer in the returned list of users
 
-### Task 3 []
+### Task 3
 
 Postman can be used to execute collections to be used in an automated fashion. It is possible to execute collections and parse the returned JSON to store variables in memory to pass between requests.
 
@@ -41,7 +41,7 @@ GOAL: Ensure your collection can be executed without manual intervention using t
 
 [Building an API with Spring](https://dzone.com/articles/creating-a-rest-api-with-java-and-spring)
 
-### Task 4 []
+### Task 4
 
 In order to replace the legacy dummy.restapiexample.com API, we must first create an exact replica. For this we will be using Node.js and Express.
 
@@ -51,7 +51,7 @@ You will need to ensure that your replica returns identical results to the curre
 
 For this task, you may use and in-memory database or a simple array. All your existing tests in Postman must pass against your new API.
 
-### Task 5 []
+### Task 5
 
 Now we are going to connect a database to our API. You can choose the DB you want to connect with (Mongo, Postgres, MySQL...whatever). You can decide whether you want to write native code, or use and ORM, like sequelize (http://docs.sequelizejs.com/ ) or mongoose for Mongo (https://mongoosejs.com/ ). There are pros and cons with each approach (I recommend a relational database here)
 
