@@ -193,28 +193,42 @@ DB SCHEMA
 EMPLOYEE
 
 id: int - AUTO
+
 name: string - REQUIRED
+
 role: string - OPTIONAL
+
 salary: decimal - REQUIRED
+
 age: int - REQUIRED
+
 profile_picture: string - OPTIONAL
 
 
 /employees POST
 
 name: REQUIRED
+
 role: OPTIONAL
+
 salary: REQUIRED
+
 age: REQUIRED
+
 profile_picture: OPTIONAL
 
 /employees/{id} UPDATE
 
 id: REQUIRED
+
 name: OPTIONAL
+
 role: OPTIONAL
+
 salary: OPTIONAL
+
 age: OPTIONAL
+
 profile_picture: OPTIONAL
 
 NOTE - AT LEAST ONE OF THE OPTIONAL ATTRIBUTES MUST BE SUPPLIED FOR UPDATE
