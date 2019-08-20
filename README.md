@@ -23,7 +23,7 @@ Using the dummy.restapiexample.com site, create a new collection in postman with
 4. Delete the user
 5. Check the user is no longer in the returned list of users
 
-### Task 3
+### Task 3 :heavy_check_mark:
 
 Postman can be used to execute collections to be used in an automated fashion. It is possible to execute collections and parse the returned JSON to store variables in memory to pass between requests.
 
