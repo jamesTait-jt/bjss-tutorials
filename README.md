@@ -41,7 +41,7 @@ GOAL: Ensure your collection can be executed without manual intervention using t
 
 [Building an API with Spring](https://dzone.com/articles/creating-a-rest-api-with-java-and-spring)
 
-### Task 4
+### Task 4 :heavy_check_mark:
 
 In order to replace the legacy dummy.restapiexample.com API, we must first create an exact replica. For this we will be using Node.js and Express.
 
@@ -51,7 +51,7 @@ You will need to ensure that your replica returns identical results to the curre
 
 For this task, you may use and in-memory database or a simple array. All your existing tests in Postman must pass against your new API.
 
-### Task 5
+### Task 5 :heavy_check_mark:
 
 Now we are going to connect a database to our API. You can choose the DB you want to connect with (Mongo, Postgres, MySQL...whatever). You can decide whether you want to write native code, or use and ORM, like sequelize (http://docs.sequelizejs.com/ ) or mongoose for Mongo (https://mongoosejs.com/ ). There are pros and cons with each approach (I recommend a relational database here)
 
